@@ -44,26 +44,26 @@ notifications:
 deploy:
   - provider: WebDeploy
     server:
-      secure: GCqb1Ka4XlvY8MkxWTFIEKRyPyeJn63fFZmwQZGgGnpzsX/eBLKza5n+7SpMFw4mJ1MLj0/7DAYnYG9QQVaferAktoWyR/lauzzwMw6byK8=
+      secure: nNKKJCMFnMPuP52tFFLA93hteYJTOb3+dU47N/h5uKr6nfXd9bDPUU1ozSZ82gKg/e2+vlAr9F3I2LYInKvdqCHj0xWJcra+uV7Y1bjv1rI=
     website:
-      secure: cDbNO7KXt5Cq0UGJ+GkMLA==
+      secure: pNUAy/VQRZwI+8al9IOPlT2YIBTfXna6KYCkWiSaEOI=
     username:
-      secure: J8/Xl8QbjGaOqjFDlyc54g==
+      secure: zg+kejsjJ9DT5mEADF94cA==
     password:
-      secure: oKuycG/m6HKIsIk1D0gcFw+8Q+ChRVaEXSwvxEOQJl6C4ZsvfnfdmGJ/3TcUuu3bNZLk31eX10rFQd//JVybCQ==
+      secure: hyncvlOwHaiC5YAl55t0M0K9jBnvX9+ktdBfU84h8qEoz1SS5HNem/JD1ULGSzxgvS0cTwOQK2P9frQEEBpn+w==
     remove_files: true
     app_offline: true
     artifact: api
 # Deploy DataAccumulator
   - provider: WebDeploy
     server:
-      secure: GCqb1Ka4XlvY8MkxWTFIEIbEk+yFC8EXfdVwDNqEzVAKxUe4AXjWiaf6HXj1PkmX8gezwqZvHjyu/bh+eJR1SGdotpyJOQPeGe6eDUXBvVCkj3KI6FQ7I7KnTCOANcDBlnURqjtXg29Jq2r4ASNIWw==
+      secure: OHGapbdB9kEq46211ak8MLSCCfr3JRV2m12AuK8LO2MSHf1GLHtfXyL6ibua9+C6q2RihgXCCD/iWl1uFcsQG5AVG4C6Xu1PuVy+QRtgKpu4uChv4bF7H7mCWpo/6PF5Aqf7XNPmGXVYB8DRfuUqMA==
     website:
-      secure: IV137Y6THFxLzDZI7AZjGwfYLIdFENA5kcKpZ4OEpXg=
+      secure: TD1RoHd6d+XUOhXRxS+vTbbI/eN1w+0N5ADJ1oxT65Q=
     username:
-      secure: 4bOILnGvJX90az4zPepc6/kJeQCoGki4hxZm8BnSC0U=
+      secure: ybDMoXH+l+Q6bTLhNAPYxMwkNV9mfugViALrzuvSyBs=
     password:
-      secure: caHBnqUecWjsXS5qn2KuUtvXtvhsgI1I84Ufl1Iffoad30jRzQvJimFYikaWN9jzBnKN56KJhKQpL4wZ/2v8nA==
+      secure: 1TnXKrBoB5GgmmWIzmlt5LraKCLr8t460Hp2eqJdZtSk+m327ur4mh9qFUr0Ei4do/BOJ4mBtar0d+3npHF9xw==
     remove_files: true
     app_offline: true
     artifact: dataaccumulator
