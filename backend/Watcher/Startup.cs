@@ -175,15 +175,14 @@ namespace Watcher
                               }
                         };
 
-                        options.Authority = "https://securetoken.google.com/watcherapp-2984b";
+                        options.Authority = "https://securetoken.google.com/watcher-92194";
                         options.TokenValidationParameters =
                             new TokenValidationParameters
                             {
                                 ValidateIssuer = true,
-                                ValidIssuer =
-                                        "https://securetoken.google.com/watcherapp-2984b",
+                                ValidIssuer = "https://securetoken.google.com/watcher-92194",
                                 ValidateAudience = true,
-                                ValidAudience = "watcherapp-2984b",
+                                ValidAudience = "watcher-92194",
                                 ValidateLifetime = true
                             };
                     });
