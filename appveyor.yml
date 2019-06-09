@@ -21,7 +21,7 @@ build_script:
   # output will be in ./backend/Watcher/bin/Release/netcoreapp2.1/publish/
   - cmd: cd ../backend
   - cmd: dotnet publish -c Release
-test_script:
+ # test_script:
  # tests in here
  # Temporarily disabling tests
  # - cmd: cd backend\Watcher.Tests
@@ -35,8 +35,8 @@ artifacts:
 notifications:
   - provider: Slack
     incoming_webhook:
-      secure: om6ZaQPG70gvmoGaTQ2IfnTM8LQFROsCT1l23SGjLCVtLIufhCl+gDK1+K4UjfZNLmZJj/bjuNFuiVargaYtl64Ul4IslvGflpz7I6sSqc8=
-    on_build_success: false
+      secure: WofQhTqYU1QML8pixjmZxuBymD8ic8CELFhZH6zGCoRiPKSj+Z8vVjKfBLoZj0YCVkgemTTj1+bdJHSzyK4TkWejYaRZ+s8Feb7LNY/eBCA=
+    on_build_success: true
     on_build_failure: true
     on_build_status_changed: true
     # on_build_status_changed: false
@@ -44,7 +44,7 @@ notifications:
 deploy:
   - provider: WebDeploy
     server:
-      secure: nNKKJCMFnMPuP52tFFLA93hteYJTOb3+dU47N/h5uKr6nfXd9bDPUU1ozSZ82gKg/e2+vlAr9F3I2LYInKvdqCHj0xWJcra+uV7Y1bjv1rI=
+      secure: nNKKJCMFnMPuP52tFFLA93hteYJTOb3+dU47N/h5uKr6nfXd9bDPUU1ozSZ82gKgqgeCA802URLLhB7QbcyBgMKbqI2MAXv35J7zryH3nhM=
     website:
       secure: pNUAy/VQRZwI+8al9IOPlT2YIBTfXna6KYCkWiSaEOI=
     username:
@@ -57,7 +57,7 @@ deploy:
 # Deploy DataAccumulator
   - provider: WebDeploy
     server:
-      secure: OHGapbdB9kEq46211ak8MLSCCfr3JRV2m12AuK8LO2MSHf1GLHtfXyL6ibua9+C6q2RihgXCCD/iWl1uFcsQG5AVG4C6Xu1PuVy+QRtgKpu4uChv4bF7H7mCWpo/6PF5Aqf7XNPmGXVYB8DRfuUqMA==
+      secure: OHGapbdB9kEq46211ak8MLSCCfr3JRV2m12AuK8LO2MSHf1GLHtfXyL6ibua9+C6bPZgCgiTIqpUE5rRXdWGi0zALpi7ijD12PJ4+LmDc1ON4l72u/obzg/ly3S1Hdvr58jF+kfBWSyDPeeCAWDUrw==
     website:
       secure: TD1RoHd6d+XUOhXRxS+vTbbI/eN1w+0N5ADJ1oxT65Q=
     username:
