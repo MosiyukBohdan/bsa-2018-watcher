@@ -7,12 +7,12 @@ export const environment = {
   server_url: 'http://localhost:29878',
   client_url: 'http://localhost:4200',
   firebase: {
-    apiKey: 'AIzaSyDkG6cWbERooMWbAn9sRBbYiRkXm81WP8U',
-    authDomain: 'watcherapp-2984b.firebaseapp.com',
-    databaseURL: 'https://watcherapp-2984b.firebaseio.com',
-    projectId: 'watcherapp-2984b',
-    storageBucket: 'watcherapp-2984b.appspot.com',
-    messagingSenderId: '772299845034'
+    apiKey: 'AIzaSyAqhOd734vYHsrlQvjeY8RqLirLY0eJiLc',
+    authDomain: 'watcher-92194.firebaseapp.com',
+    databaseURL: 'https://watcher-92194.firebaseio.com',
+    projectId: 'watcher-92194',
+    storageBucket: 'watcher-92194.appspot.com',
+    messagingSenderId: '900874954959'
   }
 };
 
