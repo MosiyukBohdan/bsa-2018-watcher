@@ -62,12 +62,12 @@ namespace DataAccumulator
                     o.AnomalyReportQueueName = serviceBusSection["AnomalyReportQueueName"];
                 });
 
-            //var azureMLSection = Configuration.GetSection("AzureML");
-            //services.Configure<AzureMLOptions>(o =>
-            //{
-            //    o.ApiKey = azureMLSection["ApiKey"];
-            //    o.Url = azureMLSection["Url"];
-            //});
+            var azureMLSection = Configuration.GetSection("AzureML");
+            services.Configure<AzureMLOptions>(o =>
+            {
+                o.ApiKey = azureMLSection["ApiKey"];
+                o.Url = azureMLSection["Url"];
+            });
 
             services.AddTransient<IDataAccumulatorService<CollectedDataDto>, DataAccumulatorService>();
             services.AddTransient<IDataAggregatorService<CollectedDataDto>, DataAggregatorService>();

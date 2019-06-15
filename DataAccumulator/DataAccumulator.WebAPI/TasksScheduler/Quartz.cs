@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Quartz;
 using Quartz.Impl;
 using Quartz.Spi;
