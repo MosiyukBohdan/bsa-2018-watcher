@@ -12,6 +12,7 @@
     <PackageIconUrl></PackageIconUrl>
     <Platforms>AnyCPU;x64</Platforms>
     <StartupObject>DataCollector.Program</StartupObject>
+    <ApplicationManifest>AdminManifest.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
