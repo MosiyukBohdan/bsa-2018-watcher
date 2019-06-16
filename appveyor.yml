@@ -63,7 +63,7 @@ deploy:
     username:
       secure: ybDMoXH+l+Q6bTLhNAPYxMwkNV9mfugViALrzuvSyBs=
     password:
-      secure: 1TnXKrBoB5GgmmWIzmlt5LraKCLr8t460Hp2eqJdZtSk+m327ur4mh9qFUr0Ei4do/BOJ4mBtar0d+3npHF9xw==
+      secure: rOuA5MgfSX8tsL1TnKknyzHozTeqfvgnmkH9139JPuRNhtlkGxdrC+ahBpShuw76cqqSTy4gpRL2aw25OuSnng==
     remove_files: true
     app_offline: true
     artifact: dataaccumulator
