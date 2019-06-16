@@ -59,7 +59,7 @@ deploy:
     server:
       secure: OHGapbdB9kEq46211ak8MLSCCfr3JRV2m12AuK8LO2MSHf1GLHtfXyL6ibua9+C6bPZgCgiTIqpUE5rRXdWGi0zALpi7ijD12PJ4+LmDc1ON4l72u/obzg/ly3S1Hdvr58jF+kfBWSyDPeeCAWDUrw==
     website:
-      secure: TD1RoHd6d+XUOhXRxS+vTbbI/eN1w+0N5ADJ1oxT65Q=
+      secure: TD1RoHd6d+XUOhXRxS+vTco05ZkY2OcIA0PkptIMHTQ=
     username:
       secure: ybDMoXH+l+Q6bTLhNAPYxMwkNV9mfugViALrzuvSyBs=
     password:
