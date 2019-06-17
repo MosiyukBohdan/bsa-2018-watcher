@@ -82,7 +82,7 @@ namespace Watcher.Core.Services
             var result = false;
 
             entity.ImageURL = await _fileStorageProvider.UploadFileFromStreamAsync(
-                "https://bsawatcherfiles.blob.core.windows.net/watcher/9580e672-01f4-4429-9d04-4f8d1984b25b.png");
+                "https://watcher0081873606.blob.core.windows.net/watcher/default_organization.png");
 
             var CreatedEntity = await _uow.OrganizationRepository.CreateAsync(entity);
             result = await _uow.SaveAsync();
@@ -168,7 +168,7 @@ namespace Watcher.Core.Services
             foreach (var organization in organizations)
             {
                 organization.ImageURL = await _fileStorageProvider.UploadFileFromStreamAsync(
-                    "https://bsawatcherfiles.blob.core.windows.net/watcher/9580e672-01f4-4429-9d04-4f8d1984b25b.png");
+                    "https://watcher0081873606.blob.core.windows.net/watcher/default_organization.png");
                 await _uow.OrganizationRepository.UpdateAsync(organization);
             }
 

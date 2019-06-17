@@ -142,7 +142,7 @@
                                                                                          .Include(i => i.CreatedByUser));
 
                         string body = $"User {inviteFromBd.CreatedByUser.DisplayName} granted you access to the organization {inviteFromBd.Organization.Name}. \n ";
-                        body += $"Your invite link: https://bsa-watcher.azurewebsites.net/invite/{entity.Link}";
+                        body += $"Your invite link: https://watchersystem.azurewebsites.net/invite/{entity.Link}";
                         await _emailProvider.SendMessageOneToOne("invite@watcher.com", "WATCHER Invite", entity.InviteEmail, body, "");
                     }
                 }
