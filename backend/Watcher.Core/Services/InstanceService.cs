@@ -88,7 +88,7 @@ namespace Watcher.Core.Services
                 AggregationForWeek = entity.AggregationForWeek,
                 AggregationForMonth = entity.AggregationForMonth,
                 CpuMaxPercent = entity.CpuMaxPercent,
-                RamMaxPercent = entity.CpuMaxPercent,
+                RamMaxPercent = entity.RamMaxPercent,
                 DiskMaxPercent = entity.DiskMaxPercent
             };
             await _serviceBus.SendInstanceSettingsAsync(message);
@@ -116,7 +116,7 @@ namespace Watcher.Core.Services
                 AggregationForWeek = updated.AggregationForWeek,
                 AggregationForMonth = updated.AggregationForMonth,
                 CpuMaxPercent = updated.CpuMaxPercent,
-                RamMaxPercent = updated.CpuMaxPercent,
+                RamMaxPercent = updated.RamMaxPercent,
                 DiskMaxPercent = updated.DiskMaxPercent
             };
             await _serviceBus.SendInstanceSettingsAsync(message);
